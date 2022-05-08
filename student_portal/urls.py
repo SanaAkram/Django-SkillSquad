@@ -33,8 +33,8 @@ urlpatterns = [
     path('<username>/', UserProfile, name='profile'),
     path('payment/', include('payments.urls')),
     path('inter/', include('interviewer.urls')),
-    path('', main, name='home'),
-    path('/', index, name='index'),
+    # path('', main, name='home'),
+    path('', index, name='index'),
     
 
     
